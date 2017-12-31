@@ -1,0 +1,642 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+
+}
+
+
+.home {
+
+  width: 100%;
+  height: 10;
+  background-color: transparent;
+
+}
+
+
+.container {
+  
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1130px;
+  height: 100%;
+
+}
+
+  @media screen and (min-width: 761px) {
+
+
+  }
+
+header {
+  background-color: transparent;
+  width: 100%;
+  height: 10px;
+  position:fixed;
+  margin-top: 0px;
+}
+
+/* start navigation */
+
+nav {
+
+  margin-left: 850px;
+  padding: 25px 20px 0 0;
+  width: 100%;
+
+
+}
+
+#menu-icon {
+
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(img/nav.png) center;
+
+}
+
+a:hover#menu-icon {
+  border-radius: 4px 4px 0 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul li {
+
+  font-size: 150%;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  font-family: "helvetica";
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+
+
+}
+
+nav ul li a:hover {
+  color: purple;
+}
+
+nav ul li a:active {
+  text-decoration: underline;
+}
+
+/* end navigation */
+
+h1, h2, h3 {
+ color: #F2F2F2;
+
+
+}
+
+h2, h3 {
+  font-family: 'Wire One', sans-serif;
+  font-weight: 100;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  position: sticky;
+  font-size: 96px;
+
+} 
+ h1{
+  position: sticky;
+ }
+
+#hero {
+
+ position: sticky;
+ font-size: 285px;
+ font-family: 'Yardevi Colombo', sans-serif;
+ font-weight: 100;
+ opacity: 0.3;
+ display: flex;
+ letter-spacing: 112px;
+ margin: 0;
+ margin-left: 150px;
+ margin-top: 400px;
+
+}
+
+.hero-inner{
+
+
+ background-color: #0E0830;
+ background-image: url(../img/back.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 0px;
+ padding-top: 0px;
+ background-color: purple;
+ margin: 0px;
+ height: 1130px;
+}
+
+.container {
+
+ width: 100%;
+ display: flex;
+ margin: auto;
+ flex-direction: row;
+ align-items: center;
+
+}
+
+
+button {
+
+ justify-content: space-between;
+ flex-direction: column;
+ align-items: center;
+ display: inline-flex;
+
+
+}
+
+button {
+  border-radius: 500px;
+  transition-duration: .3s;
+  border-width: 0;
+  letter-spacing: 2px;
+  min-width: 150px;
+  text-transform: uppercase;
+  white-space: normal;
+  background-color: rgba(155, 81, 224, 0.5);
+  color: white;
+  font-family: 'Nova Square' cursive,;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 180%
+}
+
+
+ 
+
+.Download1 {
+
+  width: 30%;
+  padding: 1%;
+  margin-left: 150px;
+  border-radius: 25px;
+  margin: 80px;
+  margin-left: 200px;
+  font-size: 180%
+
+}
+
+.Download2 {
+  width: 30%;
+  padding: 1%;
+  margin-right: 30px;
+  border-radius: 25px;
+  margin-left: 100px;
+  font-size: 180%
+}
+
+.join a{
+
+  color:white;
+}
+
+
+/*end home*/
+
+/*sections*/
+
+.page2, .page3, .page5 {
+  height: 100vh;
+}
+
+.page2 {
+  background-color: #0E0830;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+
+}
+
+.page2 h3 {
+  padding: 43px 0px;
+}
+
+.social {
+
+  width: 33.333%;
+  float: left;
+  color: white;
+  font-size: 500%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 470px;
+  margin-top: 200px;
+
+
+}
+
+div p {
+  line-height: 50px;
+}
+
+div p span {
+  display: block;
+}
+
+h3 {
+  margin: auto;
+  text-align: center;
+  font-size: 64px;
+
+}
+
+#about {
+  font-family: 'Wire One', sans-serif;
+}
+
+#lorem {
+ font-family: 'Roboto Mono', monospace;
+ font-style: normal;
+ text-align: center;
+ color: white;
+
+}
+
+#loremm {
+
+ font-family: 'Roboto Mono', monospace;
+ font-style: normal;
+ text-align: center;
+ color: purple;
+}
+
+.page3 {
+  background-image: url(../img/back2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: purple;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+
+.page4 {
+ background-color: #FAFAFA;
+ height: auto;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin: 0;
+
+}
+
+.page4 h3 {
+  padding: 90px 0px;
+  color: #0E0830;
+}
+
+.page4 p {
+  padding-bottom: 130px;
+}
+
+.page5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/join.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+}
+
+.about {
+
+ color: white;
+ font-size: 30px;
+
+}
+
+.footer {
+  margin: 0;
+  background-color: #20112E;
+  height: 100px;
+}
+
+/* "log in" page */
+
+#log-in {
+
+ padding:0;
+ margin: 0;
+ background-image:url(../img/log.png);
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 0px;
+ padding-top: 0px;
+ background-color: #1e0d30;
+ height: 1100px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 70px;
+
+}
+
+.container2{
+
+ width: 300px;
+ padding: 25px;
+ margin: 25px;
+ border-radius: 25px;
+ border: 2px solid #73AD21;
+ padding: 20px; 
+ width: 600px;
+ height: 600px;
+ background-color: purple;
+ display: flex;
+
+
+}
+
+.questions {
+
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: right;
+}
+
+
+.answers {
+
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: left;
+}
+
+.container2{
+ 
+ display: flex;
+ margin: auto;
+ justify-content: flex-start;
+ flex-direction: column;
+ align-items: center;
+
+
+}
+
+.psw {
+
+  font-family: "helvetica";
+  text-decoration-color: purple;
+}
+
+/*sign in page*/
+
+#third {
+
+ padding:0;
+ margin: 0;
+ background-image:url(../img/smoke.png);
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: purple;
+ height: 1100px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+
+}
+
+input {
+
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  margin: 20px;
+
+
+}
+
+.wave {
+
+  font-family: 'Yardevi Colombo', sans-serif;
+
+
+}
+
+#container3 {
+
+ width: 300px;
+ padding: 25px;
+ margin: 25px;
+ border-radius: 25px;
+ padding: 20px; 
+ width: 600px;
+ height: 600px;
+ background-color: transparent;
+ margin-top: 5.0em;
+
+
+}
+
+input .fields {
+ flex-direction: row;
+
+
+}
+
+
+.footer ul, .footer ul li {
+  float: left;
+}
+
+.footer ul li {
+  margin-right: 70px;
+}
+
+
+
+/*help page*/
+
+#help-page {
+ padding:0;
+ margin: 0;
+ background-image:url(../img/breathe.png);
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: purple;
+ height: 1100px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#wrapper{
+
+ margin: 0 auto;
+ padding: 20px;
+ width: 600px;
+ height: 600px;
+
+}
+
+.box {
+  float: right;
+  color: solid white;
+  line-height: inherit;
+}
+
+.box2{
+
+float: left;
+color: white;
+line-height: inherit;
+border-radius: 25px;
+
+}
+
+.questions {
+
+  color: white;
+  padding: 14px;
+  margin:20px;
+  background-color: blue;
+  margin-top: 80px;
+  opacity: 0.6;
+
+
+
+}
+
+.answers {
+  color: white;
+  padding: 14px;
+  margin:20px;
+  background-color:purple;
+  border: 2px;
+  border-radius: 25px;
+  padding: 20px;
+  opacity: 0.6;
+  margin-top: 60px;
+
+}
+
+
+#banner {
+
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: purple;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 280px;
+  width: 100%;
+}
+
+.search {
+
+  
+  margin-left: 500px;
+}
+
+p {
+  color: white;
+}
+
+
+.third {
+
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+/* career page */
+
+#career {
+
+  margin:0;
+  padding:0;
+}
+
+
+.container4 {
+
+ background-color: #0E0830;
+ background-image: url(../img/work.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 0px;
+ padding-top: 0px;
+ background-color: purple;
+ margin: 0px;
+ height: 1130px;);
+}
+
+
+/* media */
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 150%;  
+  }
+  p {
+    font-size: 120%;
+  }
+
+  header {
+    position: absolute;
+  }
+
+  #menu-icon {
+    display: inline-block;
+  }
+
+
+  
+
+
+
+
+
+
+
+
